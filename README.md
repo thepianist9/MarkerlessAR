@@ -7,6 +7,5 @@ Currently supports tiny Yolo2 and 3 and 4.
 
 
 ## Acknowledgement
-Partial code borrowed from [TFClassify-Unity-Barracuda](https://github.com/Syn-McJ/TFClassify-Unity-Barracuda) and [arfoundation-samples](https://github.com/Unity-Technologies/arfoundation-samples).
+Partial code borrowed from [TFClassify-Unity-Barracuda](https://github.com/Syn-McJ/TFClassify-Unity-Barracuda), [arfoundation-samples](https://github.com/Unity-Technologies/arfoundation-samples) and (https://github.com/derenlei/Unity_Detection2AR)
 
-Code inspired by (https://github.com/derenlei/Unity_Detection2AR).
