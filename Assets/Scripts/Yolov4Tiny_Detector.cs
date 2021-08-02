@@ -51,7 +51,7 @@ public class Yolov4Tiny_Detector : MonoBehaviour, Detector
 
     private float[] anchors = new float[]
     {
-        10F, 14F,  23F, 27F,  37F, 58F,  81F, 82F,  135F, 169F,  344F, 319F // yolov3-tiny
+        10F, 14F,  23F, 27F,  37F, 58F,  81F, 82F,  135F, 169F,  344F, 319F // yolov4-tiny
     };
 
 
@@ -60,8 +60,6 @@ public class Yolov4Tiny_Detector : MonoBehaviour, Detector
         this.labels = Regex.Split(this.labelsFile.text, "\n|\r|\r\n")
             .Where(s => !String.IsNullOrEmpty(s)).ToArray();
         var model = ModelLoader.Load(this.modelFile);
-        // https://docs.unity3d.com/Packages/com.unity.barracuda@1.0/manual/Worker.html
-        //These checks all check for GPU before CPU as GPU is preferred if the platform + rendering pipeline support it
         this.worker = GraphicsWorker.GetWorker(model);
     }
 
