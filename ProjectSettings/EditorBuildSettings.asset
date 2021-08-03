@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Detect&Track.unity
+    guid: 8d74fb765e2e94143974f47e898d0c11
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: d15865abfa3364dd9809524351e62aaa, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: aa8b80968e08b4c6b9c6e019769bc433, type: 2}
